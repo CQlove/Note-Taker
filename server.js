@@ -11,6 +11,18 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('./Develop/public'));
 
+// added get routes to read bd.json
+app.get('/api/notes', (req, res) => {
+    fs.readFile('./Develop/db/db.json', 'utf8', (err, data) => {
+        if (err) {
+            console.error(err);
+            return res.status(400).json({ error: 'Failed to read notes, please check the routes' });
+        }
+
+        const notes = JSON.parse(data);
+        res.json(notes);
+    });
+});
 
 // added path
 app.get('/notes', (req, res) => {
