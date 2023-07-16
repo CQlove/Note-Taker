@@ -48,7 +48,7 @@ Open the link to [deployed website](https://note-taker-cj-b9f86cc37802.herokuapp
 
 See Description and Installation.
 
-![Image text](Develop/public/assets/screenshot/Screenshot.png)
+![screenshot](./Develop/public/assets/screenshot/Screenshot.png)
 
 [Link to the code repository](https://github.com/CQlove/Note-Taker)
 
