@@ -10,8 +10,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('./Develop/public'));
 
-app.use(html);
 app.use(api);
+app.use(html);
 
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
