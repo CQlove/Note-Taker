@@ -44,7 +44,7 @@ This Note Taker application mainly uses express.js to connect front-end and back
 
 Open the link to [deployed website](https://note-taker-cj-b9f86cc37802.herokuapp.com/)
 
-## usage
+## Usage
 
 See [Description](#description) and [Installation](#installation).
 
