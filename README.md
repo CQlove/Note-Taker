@@ -36,9 +36,9 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Description
 
-```md
+
 This Note Taker application mainly uses express.js to connect front-end and back-end. When you are on the main page, you can click "Get Stared" button to navigate to the note taker page. On the note-taker page, your stored Note will show on the left side. You can click any item in the list, and your stored note with detailed information will show on the right side of screen. You can click the "trash" icon to delete the note. You also can click "+" on the top far right to add new note; once you input both the title and text; the "save" icon will appear next to the "+" button; you can click "save" to save your note, and your note will add into the list. The top left has a "JC's Note Taker"; you can click that button to back to the main page.
-```
+
 
 # Installation
 
