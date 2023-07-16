@@ -42,11 +42,11 @@ This Note Taker application mainly uses express.js to connect front-end and back
 
 # Installation
 
-Open the link
+Open the link to [deployed website]((https://morning-caverns-58991-49e43c335afb.herokuapp.com/)
 
 # usage
 
 See [Description](#description).
-![Image text](https://github.com/CQlove/Note-Taker/blob/main/Develop/public/assets/screen/Screenshot.png)
+![Image text](./Develop/public/assets/screen/Screenshot.png)
 [Link to the code repository](https://github.com/CQlove/Note-Taker)
-[Link to the deployed website](https://morning-caverns-58991-49e43c335afb.herokuapp.com/)
+[Link to the deployed website](https://note-taker-cj-b9f86cc37802.herokuapp.com/)
